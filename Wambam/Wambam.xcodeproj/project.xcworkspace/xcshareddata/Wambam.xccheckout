@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B21C337-CE83-4E96-81BA-D3F6D16F796E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wambam</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8519997-5678-4E76-AC3C-3913999B9C78</key>
+		<string>https://github.com/bsmith3541/wambam_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wambam/Wambam.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8519997-5678-4E76-AC3C-3913999B9C78</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bsmith3541/wambam_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8519997-5678-4E76-AC3C-3913999B9C78</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8519997-5678-4E76-AC3C-3913999B9C78</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wambam_ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
