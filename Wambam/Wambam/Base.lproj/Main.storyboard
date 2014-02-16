@@ -33,6 +33,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="fulfillTaskButton" destination="uhc-Ax-3SB" id="fyF-st-oiL"/>
+                        <outlet property="newTaskButton" destination="ICZ-AB-K0B" id="UQD-KS-Mxn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
