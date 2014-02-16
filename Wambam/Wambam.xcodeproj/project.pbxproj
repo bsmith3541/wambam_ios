@@ -14,7 +14,7 @@
 		98E0914B18AE6EEE0077BF01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0914A18AE6EEE0077BF01 /* main.m */; };
 		98E0914F18AE6EEE0077BF01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0914E18AE6EEE0077BF01 /* AppDelegate.m */; };
 		98E0915218AE6EEE0077BF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E0915018AE6EEE0077BF01 /* Main.storyboard */; };
-		98E0915518AE6EEE0077BF01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0915418AE6EEE0077BF01 /* ViewController.m */; };
+		98E0915518AE6EEE0077BF01 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0915418AE6EEE0077BF01 /* HomeViewController.m */; };
 		98E0915718AE6EEE0077BF01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E0915618AE6EEE0077BF01 /* Images.xcassets */; };
 		98E0915E18AE6EEE0077BF01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0915D18AE6EEE0077BF01 /* XCTest.framework */; };
 		98E0915F18AE6EEE0077BF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0913E18AE6EEE0077BF01 /* Foundation.framework */; };
@@ -34,7 +34,7 @@
 		98E0918818B150FB0077BF01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918718B150FB0077BF01 /* OpenGLES.framework */; };
 		98E0918A18B151020077BF01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918918B151020077BF01 /* QuartzCore.framework */; };
 		98E0918C18B1510A0077BF01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918B18B1510A0077BF01 /* SystemConfiguration.framework */; };
-		98E0918F18B154E80077BF01 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0918E18B154E80077BF01 /* MapViewViewController.m */; };
+		98E0918F18B154E80077BF01 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0918E18B154E80077BF01 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		98E0914D18AE6EEE0077BF01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98E0914E18AE6EEE0077BF01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		98E0915118AE6EEE0077BF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		98E0915318AE6EEE0077BF01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98E0915418AE6EEE0077BF01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98E0915318AE6EEE0077BF01 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		98E0915418AE6EEE0077BF01 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		98E0915618AE6EEE0077BF01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		98E0915C18AE6EEE0077BF01 /* WambamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WambamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E0915D18AE6EEE0077BF01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -80,8 +80,8 @@
 		98E0918718B150FB0077BF01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		98E0918918B151020077BF01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		98E0918B18B1510A0077BF01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		98E0918D18B154E80077BF01 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
-		98E0918E18B154E80077BF01 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
+		98E0918D18B154E80077BF01 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		98E0918E18B154E80077BF01 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,10 +169,10 @@
 				98E0914D18AE6EEE0077BF01 /* AppDelegate.h */,
 				98E0914E18AE6EEE0077BF01 /* AppDelegate.m */,
 				98E0915018AE6EEE0077BF01 /* Main.storyboard */,
-				98E0915318AE6EEE0077BF01 /* ViewController.h */,
-				98E0915418AE6EEE0077BF01 /* ViewController.m */,
-				98E0918D18B154E80077BF01 /* MapViewViewController.h */,
-				98E0918E18B154E80077BF01 /* MapViewViewController.m */,
+				98E0915318AE6EEE0077BF01 /* HomeViewController.h */,
+				98E0915418AE6EEE0077BF01 /* HomeViewController.m */,
+				98E0918D18B154E80077BF01 /* MapViewController.h */,
+				98E0918E18B154E80077BF01 /* MapViewController.m */,
 				98E0915618AE6EEE0077BF01 /* Images.xcassets */,
 				98E0914518AE6EEE0077BF01 /* Supporting Files */,
 			);
@@ -306,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E0915518AE6EEE0077BF01 /* ViewController.m in Sources */,
+				98E0915518AE6EEE0077BF01 /* HomeViewController.m in Sources */,
 				98E0914F18AE6EEE0077BF01 /* AppDelegate.m in Sources */,
-				98E0918F18B154E80077BF01 /* MapViewViewController.m in Sources */,
+				98E0918F18B154E80077BF01 /* MapViewController.m in Sources */,
 				98E0914B18AE6EEE0077BF01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
