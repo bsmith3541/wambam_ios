@@ -34,6 +34,7 @@
 		98E0918818B150FB0077BF01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918718B150FB0077BF01 /* OpenGLES.framework */; };
 		98E0918A18B151020077BF01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918918B151020077BF01 /* QuartzCore.framework */; };
 		98E0918C18B1510A0077BF01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0918B18B1510A0077BF01 /* SystemConfiguration.framework */; };
+		98E0918F18B154E80077BF01 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0918E18B154E80077BF01 /* MapViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		98E0918718B150FB0077BF01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		98E0918918B151020077BF01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		98E0918B18B1510A0077BF01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		98E0918D18B154E80077BF01 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
+		98E0918E18B154E80077BF01 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 				98E0915018AE6EEE0077BF01 /* Main.storyboard */,
 				98E0915318AE6EEE0077BF01 /* ViewController.h */,
 				98E0915418AE6EEE0077BF01 /* ViewController.m */,
+				98E0918D18B154E80077BF01 /* MapViewViewController.h */,
+				98E0918E18B154E80077BF01 /* MapViewViewController.m */,
 				98E0915618AE6EEE0077BF01 /* Images.xcassets */,
 				98E0914518AE6EEE0077BF01 /* Supporting Files */,
 			);
@@ -303,6 +308,7 @@
 			files = (
 				98E0915518AE6EEE0077BF01 /* ViewController.m in Sources */,
 				98E0914F18AE6EEE0077BF01 /* AppDelegate.m in Sources */,
+				98E0918F18B154E80077BF01 /* MapViewViewController.m in Sources */,
 				98E0914B18AE6EEE0077BF01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

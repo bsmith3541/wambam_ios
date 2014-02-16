@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="181" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="v3c-gp-xPR">
             <objects>
-                <viewController id="RSY-dx-NaA" sceneMemberID="viewController">
+                <viewController id="RSY-dx-NaA" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ygv-lX-a75"/>
                         <viewControllerLayoutGuide type="bottom" id="gxM-S2-jsa"/>
