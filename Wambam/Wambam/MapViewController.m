@@ -15,7 +15,8 @@
 
 @implementation MapViewController {
     CLLocationManager *locationManager;
-    GMSMapView *mapView_;
+    GMSMapView *mapView;
+    CLLocation *currLocation;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -34,11 +35,21 @@
     
     // allocate and initialize CLLocationManager
     // complete setup for location updates
+    GMSCameraPosition *camera;
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-    
+//    if(currLocation) {
+//        camera = [GMSCameraPosition cameraWithLatitude:currLocation.coordinate.latitude longitude:currLocation.coordinate.longitude zoom:6];
+//        mapView.camera = camera;
+//    }
     [locationManager startUpdatingLocation];
+    //mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView = [[GMSMapView alloc] initWithFrame:self.view.bounds];
+    NSLog(@"Camera %@", camera);
+    mapView.myLocationEnabled = YES;
+    mapView.settings.myLocationButton = YES;
+    self.view = mapView;
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,10 +72,12 @@
 {
     NSLog(@"didUpdateToLocation: %@", newLocation);
     CLLocation *currentLocation = newLocation;
+    currLocation = newLocation;
     
     if (currentLocation != nil) {
-        NSLog([NSString stringWithFormat:@"%.8f", currentLocation.coordinate.longitude]);
-        NSLog([NSString stringWithFormat:@"%.8f", currentLocation.coordinate.latitude]);
+        GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currLocation.coordinate.latitude longitude:currLocation.coordinate.longitude zoom:6];
+        NSLog(@"Current Location: %@", currLocation);
+        mapView.camera = camera;
     }
 }
 
