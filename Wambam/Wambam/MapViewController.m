@@ -7,7 +7,6 @@
 //
 
 #import "MapViewController.h"
-#import <GoogleMaps/GoogleMaps.h>
 
 @interface MapViewController ()
 
@@ -46,7 +45,7 @@
     [locationManager startUpdatingLocation];
     //mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView = [[GMSMapView alloc] initWithFrame:self.view.bounds];
-    NSLog(@"Camera %@", camera);
+    mapView.delegate = self;
     mapView.myLocationEnabled = YES;
     mapView.settings.myLocationButton = YES;
     self.view = mapView;
@@ -70,15 +69,21 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {
-    NSLog(@"didUpdateToLocation: %@", newLocation);
     CLLocation *currentLocation = newLocation;
     currLocation = newLocation;
     
     if (currentLocation != nil) {
         GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currLocation.coordinate.latitude longitude:currLocation.coordinate.longitude zoom:6];
-        NSLog(@"Current Location: %@", currLocation);
+        //NSLog(@"Current Location: %@", currLocation);
+        //NSLog(@"%@", [self myLocation]);
         mapView.camera = camera;
     }
+}
+
+- (void)mapView:(GMSMapView *)mapVIew didTapAtCoordinate:(CLLocationCoordinate2D) coordinate
+{
+    NSLog(@"Stuff goes here...");
+    NSLog(@"Coordinate: %f", coordinate.latitude);
 }
 
 @end
