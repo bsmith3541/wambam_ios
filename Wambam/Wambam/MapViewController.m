@@ -73,7 +73,7 @@
     currLocation = newLocation;
     
     if (currentLocation != nil) {
-        GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currLocation.coordinate.latitude longitude:currLocation.coordinate.longitude zoom:6];
+        GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currLocation.coordinate.latitude longitude:currLocation.coordinate.longitude zoom:15];
         //NSLog(@"Current Location: %@", currLocation);
         //NSLog(@"%@", [self myLocation]);
         mapView.camera = camera;
@@ -82,8 +82,12 @@
 
 - (void)mapView:(GMSMapView *)mapVIew didTapAtCoordinate:(CLLocationCoordinate2D) coordinate
 {
-    NSLog(@"Stuff goes here...");
     NSLog(@"Coordinate: %f", coordinate.latitude);
+    
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = coordinate;
+    marker.appearAnimation = YES;
+    marker.map = mapView;
 }
 
 @end
