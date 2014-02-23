@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BBFF9518BA882E00DDC28D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BBFF9418BA882E00DDC28D /* GoogleMaps.framework */; };
 		985AB65F18B4A6F300F6314F /* InfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 985AB65E18B4A6F300F6314F /* InfoWindow.m */; };
 		98E0913F18AE6EEE0077BF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0913E18AE6EEE0077BF01 /* Foundation.framework */; };
 		98E0914118AE6EEE0077BF01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0914018AE6EEE0077BF01 /* CoreGraphics.framework */; };
@@ -22,7 +23,6 @@
 		98E0916018AE6EEE0077BF01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0914218AE6EEE0077BF01 /* UIKit.framework */; };
 		98E0916818AE6EEE0077BF01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98E0916618AE6EEE0077BF01 /* InfoPlist.strings */; };
 		98E0916A18AE6EEE0077BF01 /* WambamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0916918AE6EEE0077BF01 /* WambamTests.m */; };
-		98E0917418B150450077BF01 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0917318B150450077BF01 /* GoogleMaps.framework */; };
 		98E0917618B150820077BF01 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98E0917518B150820077BF01 /* GoogleMaps.bundle */; };
 		98E0917818B150B30077BF01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0917718B150B30077BF01 /* AVFoundation.framework */; };
 		98E0917A18B150BA0077BF01 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0917918B150BA0077BF01 /* CoreData.framework */; };
@@ -49,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40BBFF9418BA882E00DDC28D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		985AB65D18B4A6F300F6314F /* InfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoWindow.h; sourceTree = "<group>"; };
 		985AB65E18B4A6F300F6314F /* InfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoWindow.m; sourceTree = "<group>"; };
 		98E0913B18AE6EEE0077BF01 /* Wambam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wambam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +71,6 @@
 		98E0916518AE6EEE0077BF01 /* WambamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WambamTests-Info.plist"; sourceTree = "<group>"; };
 		98E0916718AE6EEE0077BF01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98E0916918AE6EEE0077BF01 /* WambamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WambamTests.m; sourceTree = "<group>"; };
-		98E0917318B150450077BF01 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		98E0917518B150820077BF01 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		98E0917718B150B30077BF01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		98E0917918B150BA0077BF01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -95,6 +95,7 @@
 				98E0918C18B1510A0077BF01 /* SystemConfiguration.framework in Frameworks */,
 				98E0918A18B151020077BF01 /* QuartzCore.framework in Frameworks */,
 				98E0918818B150FB0077BF01 /* OpenGLES.framework in Frameworks */,
+				40BBFF9518BA882E00DDC28D /* GoogleMaps.framework in Frameworks */,
 				98E0918618B150F40077BF01 /* libz.dylib in Frameworks */,
 				98E0918418B150E90077BF01 /* libicucore.dylib in Frameworks */,
 				98E0918218B150DE0077BF01 /* libc++.dylib in Frameworks */,
@@ -105,7 +106,6 @@
 				98E0917818B150B30077BF01 /* AVFoundation.framework in Frameworks */,
 				98E0914118AE6EEE0077BF01 /* CoreGraphics.framework in Frameworks */,
 				98E0914318AE6EEE0077BF01 /* UIKit.framework in Frameworks */,
-				98E0917418B150450077BF01 /* GoogleMaps.framework in Frameworks */,
 				98E0913F18AE6EEE0077BF01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +158,7 @@
 				98E0918918B151020077BF01 /* QuartzCore.framework */,
 				98E0918718B150FB0077BF01 /* OpenGLES.framework */,
 				98E0918518B150F40077BF01 /* libz.dylib */,
+				40BBFF9418BA882E00DDC28D /* GoogleMaps.framework */,
 				98E0918318B150E90077BF01 /* libicucore.dylib */,
 				98E0918118B150DE0077BF01 /* libc++.dylib */,
 				98E0917F18B150CC0077BF01 /* ImageIO.framework */,
@@ -166,7 +167,6 @@
 				98E0917918B150BA0077BF01 /* CoreData.framework */,
 				98E0917718B150B30077BF01 /* AVFoundation.framework */,
 				98E0917518B150820077BF01 /* GoogleMaps.bundle */,
-				98E0917318B150450077BF01 /* GoogleMaps.framework */,
 				98E0913E18AE6EEE0077BF01 /* Foundation.framework */,
 				98E0914018AE6EEE0077BF01 /* CoreGraphics.framework */,
 				98E0914218AE6EEE0077BF01 /* UIKit.framework */,
@@ -455,6 +455,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/brandonsmith/Projects/iOS/wambam_ios/Wambam,
+					/Users/aayushu/wambam_ios/Wambam,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wambam/Wambam-Prefix.pch";
@@ -472,6 +473,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/brandonsmith/Projects/iOS/wambam_ios/Wambam,
+					/Users/aayushu/wambam_ios/Wambam,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wambam/Wambam-Prefix.pch";
