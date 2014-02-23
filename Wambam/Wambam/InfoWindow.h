@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface InfoWindow : UIView
-
+    @property(nonatomic, weak) NSString *name;
+    @property(nonatomic, weak) NSString *description;
+    @property(nonatomic, weak) NSString *phone;
+    @property(nonatomic, weak) UIImage *placeImage;
+    //@property(nonatomic, weak) IBOutlet UILabel *description;
 @end

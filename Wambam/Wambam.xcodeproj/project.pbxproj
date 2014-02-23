@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		985AB65F18B4A6F300F6314F /* InfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 985AB65E18B4A6F300F6314F /* InfoWindow.m */; };
 		98E0913F18AE6EEE0077BF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0913E18AE6EEE0077BF01 /* Foundation.framework */; };
 		98E0914118AE6EEE0077BF01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0914018AE6EEE0077BF01 /* CoreGraphics.framework */; };
 		98E0914318AE6EEE0077BF01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0914218AE6EEE0077BF01 /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		985AB65D18B4A6F300F6314F /* InfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoWindow.h; sourceTree = "<group>"; };
+		985AB65E18B4A6F300F6314F /* InfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoWindow.m; sourceTree = "<group>"; };
 		98E0913B18AE6EEE0077BF01 /* Wambam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wambam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E0913E18AE6EEE0077BF01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98E0914018AE6EEE0077BF01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985AB65C18B4A69A00F6314F /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				985AB65D18B4A6F300F6314F /* InfoWindow.h */,
+				985AB65E18B4A6F300F6314F /* InfoWindow.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
 		98E0913218AE6EEE0077BF01 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +178,7 @@
 		98E0914418AE6EEE0077BF01 /* Wambam */ = {
 			isa = PBXGroup;
 			children = (
+				985AB65C18B4A69A00F6314F /* CustomClasses */,
 				98E0914D18AE6EEE0077BF01 /* AppDelegate.h */,
 				98E0914E18AE6EEE0077BF01 /* AppDelegate.m */,
 				98E0915018AE6EEE0077BF01 /* Main.storyboard */,
@@ -310,6 +323,7 @@
 				98E0914F18AE6EEE0077BF01 /* AppDelegate.m in Sources */,
 				98E0918F18B154E80077BF01 /* MapViewController.m in Sources */,
 				98E0914B18AE6EEE0077BF01 /* main.m in Sources */,
+				985AB65F18B4A6F300F6314F /* InfoWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +542,7 @@
 				98E0916F18AE6EEE0077BF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98E0917018AE6EEE0077BF01 /* Build configuration list for PBXNativeTarget "WambamTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +551,7 @@
 				98E0917218AE6EEE0077BF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
